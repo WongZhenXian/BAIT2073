@@ -25,11 +25,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         //todo:: display student info
-        binding.btnDisplay.setOnClickListener(){
+        binding.btnDisplay.setOnClickListener() {
             student.programme = "RIS"
+            student.age = 21
 
             binding.apply {
                 invalidateAll()
             }
+        }
     }
 }
